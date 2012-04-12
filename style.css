@@ -1,0 +1,125 @@
+body {
+	margin: 2em 0;
+	padding: 2em 0;
+}
+
+#tv {
+	background: url(img/monitor.jpg) no-repeat;
+	width: 750px;
+	height: 505px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#noise {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+	width: 688px;
+	height: 388px;
+	z-index: 2;
+}
+
+#loader {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -16px 0 0 -16px;
+	z-index: 1;
+}
+
+#tagline {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+	width: 688px;
+	height: 388px;
+	z-index: 2;
+	background: url(img/bg.png) no-repeat;
+	display: none;
+}
+
+#tagline h1 {
+	margin: 0;
+	font: 4em Impact, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+	height: 100%;
+	line-height: 388px;
+	text-align: center;
+}
+
+#menu {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+	width: 688px;
+	height: 388px;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+}
+
+#menu li {
+	width: 344px;
+	height: 194px;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	width: 100%;
+	height: 74px;
+	padding: 60px 0;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font: 2em Arial, sans-serif;
+	text-transform: uppercase;
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+
+
+#menu a.alt1 {
+	background: #338;
+}
+
+#menu a.alt1:hover {
+	background: #00c;
+}
+
+#menu a.alt2 {
+	background: #c30;
+}
+
+#menu a.alt2:hover {
+	background: #a00;
+}
+
+#menu a.alt3 {
+	background: #393;
+}
+
+#menu a.alt3:hover {
+	background: #080;
+}
+
+#menu a.alt4 {
+	background: #000;
+}
+
+#menu a.alt4:hover {
+	background: #333;
+}
+
